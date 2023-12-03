@@ -23,20 +23,15 @@ nav ul li{
     font-size: large;
     display: inline-block;
     list-style: none;
-    padding: 16px 25px;
+    padding: 10px 25px;
 }
 
 nav u li a{
-    color: #ffffff;
     font-size: 1.3rem;
 }
 .active, nav ul li:hover{
     background-color: olive;
     font-weight: bold;
-}
-ul li #section-b{
-    
-    list-style: none;
 }
 footer {
     width: 90%;
@@ -44,11 +39,8 @@ footer {
     margin-right: auto;
     align-items: center;
     justify-content: center;
-    border: 3px solid black;
-    border-color: black;
 }
 .footer_proiect{
-    border: 1px solid green;
     text-align: center;
     width: 20%;
     display: inline-block;
@@ -58,7 +50,6 @@ footer {
 }
 .optiuni_plata{
     width: 20%;
-    border: 1px solid green;
     text-align: center;
     display: inline-block;
     margin-left: 5%;
@@ -66,7 +57,6 @@ footer {
 }
 .postari_recente{
     width: 20%;
-    border: 1px solid green;
     text-align: center;
     display: inline-block;
     margin-left: 5%;
@@ -81,4 +71,49 @@ footer .footer_proiect .optiuni_plata .postari_recente{
     margin-right: auto;
     align-items: center;
     justify-content: center;
+}
+#titlu_cine_suntem {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+main .cine_suntem{
+   display: inline-block; 
+}
+#div-a{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+section div span h6{
+    float: left;
+}
+#span-1{
+    display: inline-block;
+}
+
+#span-2{
+    display: inline-flex;
+}
+#span-2 p{
+    margin: 2%;
+}
+#section-b{
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    font-size: large;
+}
+section ul li{
+    display: inline-block;
+    list-style: none;
+    margin: auto;
+    padding: 2% 10%;
+}
+#section-c{
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    display: inline-block;
 }
