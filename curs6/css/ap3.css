@@ -1,0 +1,19 @@
+h1{
+    border-bottom: 3px solid cornflowerblue;
+    max-width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+}
+div{
+    max-width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    padding: 8px;
+
+}
+
+input div{
+    text-align: left;
+}
