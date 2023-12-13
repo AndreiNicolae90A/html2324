@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            counter-reset: Titlu;
+        }
+        h1{
+            color: red;
+            counter-reset: Subtitlu;
+        }
+        h1::before{
+            counter-increment: Titlu;
+            content: counter(Titlu) " ";
+        }
+        h2::before{
+            margin-left: 25px;
+            counter-increment: Subtitlu;
+            content: counter(Titlu) "." counter(Subtitlu) " ";
+
+        }
+        h2{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<H1>Titlu</H1>
+<h2>Subtitlu</h2>
+<h2>Subtitlu</h2>
+<h2>Subtitlu</h2>
+<H1>Titlu</H1>
+<h2>Subtitlu</h2>
+<h2>Subtitlu</h2>
+<h2>Subtitlu</h2>
+<h2>Subtitlu</h2>
+<H1>Titlu</H1>
+<h2>Subtitlu</h2>
+<h2>Subtitlu</h2>
+<H1>Titlu</H1>
+<h2>Subtitlu</h2>
+<h2>Subtitlu</h2>
+<h2>Subtitlu</h2>
+<h2>Subtitlu</h2>
+<h2>Subtitlu</h2>
+</body>
+</html>

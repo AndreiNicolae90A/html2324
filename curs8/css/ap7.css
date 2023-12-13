@@ -1,0 +1,59 @@
+nav{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Whisper', cursive;
+    background-color: rgba(52, 46, 41, 0.62);
+    width: 80%;
+    margin: 20px auto;
+}
+nav>ul{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 0;
+}
+nav>ul>li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 10px;
+    font-size: large;
+}
+nav>ul>li:hover,
+nav>ul>li.active{
+    background-color: rgba(150, 63, 63, 0.945);
+}
+nav>ul>li.active>a{
+    color: black;
+}
+nav>ul>li>a{
+    color: azure;
+    text-decoration: none;
+}
+
+/* zona submeniu */
+
+ul.submeniu{
+    display: none;
+    list-style: none;
+    text-align: center;
+
+}
+nav>ul>li:hover>ul.submeniu{
+    display: block;
+    background-color: rgba(206, 100, 100, 0.759);
+    clear: both;
+    position: absolute;
+    margin-top: 16px;
+    z-index: 100;
+    width: 100px;
+    
+}
+
+ul.submeniu>li>a{
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
