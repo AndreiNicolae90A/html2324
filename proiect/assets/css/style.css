@@ -15,9 +15,12 @@ nav{
     font-family: 'Dancing Script', cursive;
 }
 nav ul{
-    width: 100%;
-    max-width: 600px;
+    max-width: 100%;
     margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    overflow: hidden;
 }
 nav ul li{
     font-size: large;
@@ -116,4 +119,72 @@ section ul li{
     padding-right: 5%;
     padding-top: 2%;
     display: inline-block;
+}
+.page-container{
+    width: 480px;
+    max-width: 100%;
+    padding: 16px;
+}
+section .profile{
+    margin-bottom: 32px;
+}
+.profile {
+    text-align: center;
+}
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-top: 16px;
+}
+.profile-image img{
+    max-width: 100%;
+    border-radius: 100%;
+}
+.profile-details{
+    font-size: 16px;
+    margin: 20px;
+
+}
+.profile-details h1{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.tags span{
+    font-size: 14px;
+    background-color: antiquewhite;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 100px;
+    display: inline-block;
+}
+.poject{
+    font-size: 16px;
+    background-color: blue;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    
+}
+.project img{
+    max-width: 100%;
+}
+.project .mesaj-client{
+    padding: 16px;
+}
+.project-details{
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+.project-details .buton-ascuns{
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 2px;
+
 }

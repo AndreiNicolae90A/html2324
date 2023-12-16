@@ -1,100 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
-        <link rel="manifest" href="./assets/images/site.webmanifest">
-        <link rel="mask-icon" href="./assets/images/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-        <title>CSS Grid Site</title>
-    </head>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/images/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./assets/images/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <title>CSS Grid Site</title>
+  </head>
 
-    <body>
-        <!-- Header Showcase -->
-        <header id="showcase" class="grid">
-            <div class="bg-image"></div>
-            <div class="content-wrap">
-            </div>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="./prima_pagina.html">Prima pagina</a></li>
-                <li><a href="./despre_noi.html">Despre noi</a></li>
-                <li class="active"><a href="./testimoniale.html">Testimoniale</a></li>
-                <li><a href="./servicii.html">Servicii</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </nav>
+  <body>
+    <!-- Header Showcase -->
+    <header id="showcase" class="grid">
+      <div class="bg-image"></div>
+      <div class="content-wrap"></div>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="./prima_pagina.html">Prima pagina</a></li>
+        <li><a href="./despre_noi.html">Despre noi</a></li>
+        <li class="active"><a href="./testimoniale.html">Testimoniale</a></li>
+        <li><a href="./servicii.html">Servicii</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
 
-        <!-- Main Area -->
-        <main id="main">
-            <!-- Section A -->
-            <section id="section-a" class="grid">
-            </section>
+    <!-- Main section -->
 
-            <!-- Section B -->
-            <section id="section-b" class="grid">
-                <ul>
-                    <li>
-                    </li>
-                    <li>
-                    </li>
-                    <li>
-                    </li>
-                </ul>
-            </section>
+    <section class="projects">
+      <h2 class="section-title">parerile clientilor</h2>
+      <div class="projects-container">
+        <div class="project">
+          <div class="projects-details">
+            <p>Clientul 1 recomanda - ascuns</p>
+            <a href="./servicii.html" class="buton-ascuns"> vezi recomandare</a>
+          </div>
+          <img src="./assets/images/client1.jpg" alt="clientul 1" />
+          <p class="mesaj-client">Clientul 1 este multumit</p>
+        </div>
+        <div class="project">
+          <div class="projects-details">
+            <p>Clientul 2 recomanda - ascuns</p>
+            <a href="./servicii.html" class="buton-ascuns">
+              vezi recomandare
+            </a>
+          </div>
+          <img src="./assets/images/client2.jpg" alt="clientul 2" />
+          <p class="mesaj-client">Clientul 2 este multumit</p>
+        </div>
+        <div class="project">
+          <div class="projects-details">
+            <p>Clientul 3 recomanda - ascuns</p>
+            <a href="./servicii.html" class="buton-ascuns">
+              vezi recomandare
+            </a>
+          </div>
+          <img src="./assets/images/client3.jpg" alt="clientul 3" />
+          <p class="mesaj-client">Clientul 3 este multumit</p>
+        </div>
+        <div class="project">
+          <div class="projects-details">
+            <p>Clientul 4 recomanda - ascuns</p>
+            <a href="./servicii.html" class="buton-ascuns"> vezi recomandare</a>
+          </div>
+          <img src="./assets/images/client4.jpg" alt="clientul 4" />
+          <p class="mesaj-client">Clientul 4 este multumit</p>
+        </div>
+      </div>
+    </section>
 
-            <!-- Section C -->
-            <section id="section-c" class="grid">
-            </section>
-
-            <!-- Section D -->
-            <section id="section-d" class="grid">
-            </section>
-        </main>
+    <section class="pareri">
+      <h2 class="pareri-titlu">Parerile voastre conteaza!</h2>
+      <ul class="pareri-clienti">
+        <li>
+          <a href="facebook.ro" target="_blank"> Contacteaza ne pe Facebook</a>
+        </li>
+        <li>
+          <a href="instagram.ro" target="_blank">
+            Contacteaza ne pe Instagram</a
+          >
+        </li>
+        <li>
+          <a href="mailto:andreinicolae1990@gmail.com" target="_blank"
+            >Contacteaza ne pe Email</a
+          >
+        </li>
+      </ul>
+    </section>
     <!-- Footer -->
     <footer id="main_footer" class="grid">
-        <div class="footer_proiect">
-            <strong>Project Flower Shop</strong>
-            <div>
-                <p>
-                    Proiect Flower Shop este solutia pentru a crea povesti impreuna,
-                    atentia noastra este indreptata pana la cele mai mici detalii.
-                </p>
-                <i class="fa fa-location-arrow"></i>
-                <p>Adresa</p>
-                <p></p>
-            </div>
+      <div class="footer_proiect">
+        <strong>Project Flower Shop</strong>
+        <div>
+          <p>
+            Proiect Flower Shop este solutia pentru a crea povesti impreuna,
+            atentia noastra este indreptata pana la cele mai mici detalii.
+          </p>
+          <i class="fa fa-location-arrow"></i>
+          <p>Adresa</p>
+          <p></p>
         </div>
-        <div class="optiuni_plata">
-            <strong>Optiuni de plata</strong>
-            <div>
-                <p>
-                    Acceptăm majoritatea cărților de credit/debit. Pentru întrebări ne
-                    poți contacta iar noi te vom ajuta.
-                </p>
-                <p>
-                    <img src="https://images.ctfassets.net/214q1nptnllb/2twKTlICvIW2QeDxLGkcvM/36cedd130a6dbc6611121624d0c59528/Solo__all_EU____Air_-_3G__LT_license_.svg"
-                        width="180px" height="120px" alt="carduri acceptate" />
-                </p>
-            </div>
+      </div>
+      <div class="optiuni_plata">
+        <strong>Optiuni de plata</strong>
+        <div>
+          <p>
+            Acceptăm majoritatea cărților de credit/debit. Pentru întrebări ne
+            poți contacta iar noi te vom ajuta.
+          </p>
+          <p>
+            <img
+              src="https://images.ctfassets.net/214q1nptnllb/2twKTlICvIW2QeDxLGkcvM/36cedd130a6dbc6611121624d0c59528/Solo__all_EU____Air_-_3G__LT_license_.svg"
+              width="180px"
+              height="120px"
+              alt="carduri acceptate"
+            />
+          </p>
         </div>
-        <div class="postari_recente">
-            <strong>Link-uri utile</strong>
-            <div>
-                <p><a href="./contact.html">Contact</a></p>
-                <p>Termeni si conditii</p>
-                <p>Politica de confidentialitate</p>
-                <p>Politica cookies</p>
-            </div>
+      </div>
+      <div class="postari_recente">
+        <strong>Link-uri utile</strong>
+        <div>
+          <p><a href="./contact.html">Contact</a></p>
+          <p>Termeni si conditii</p>
+          <p>Politica de confidentialitate</p>
+          <p>Politica cookies</p>
         </div>
+      </div>
     </footer>
-    </body>
+  </body>
 </html>
