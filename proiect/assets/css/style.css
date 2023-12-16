@@ -36,6 +36,9 @@ nav u li a{
     background-color: olive;
     font-weight: bold;
 }
+.active a{
+    color: brown;
+}
 footer {
     width: 90%;
     margin-left: auto;
